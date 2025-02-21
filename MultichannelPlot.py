@@ -1,6 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
-
+# edit version by SJD16
 
 class MultichannelPlot(object):
     # Plots multidimensional signals in a real-time fashion
