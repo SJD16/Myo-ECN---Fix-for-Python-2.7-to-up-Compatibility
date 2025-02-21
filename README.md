@@ -2,14 +2,14 @@
 
 This repository contains a fix for the streaming.py example from the smetanadvorak/myo_ecn repository: https://github.com/smetanadvorak/myo_ecn. The issue arises due to a deprecated syntax in newer versions of Python (2.7 and above) in the MultichannelPlot.py file.
 
-##Issue Description
+## Issue Description
 The streaming.py script uses a MultichannelPlot class for visualizing EMG data from the MYO armband. However, the following line in MultichannelPlot.py causes an error in Python 2.7 and above:
 ```bash
 self.axes = [self.fig.add_subplot(str(self.nchan) + '1' + str(i+1)) for i in range(self.nchan)]
 ```
 I belive this line uses an outdated syntax for creating subplots in Matplotlib, which is no longer supported in newer versions of Python.
 
-##Fix
+## Fix
 To resolve this issue, replace the problematic line in MultichannelPlot.py with the following updated syntax:
 
 ```bash
