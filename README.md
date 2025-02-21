@@ -39,12 +39,12 @@ plotter = MultichannelPlot(nchan=8, xlen=512)  # Number of EMG channels in MYO a
 ```
 This will now work correctly in Python 2.7 and above.
 
-## Credits
+# Credits
 
     Original repository: smetanadvorak/myo_ecn
     Fix contributed by: [SJD16]
 
-##License
+## License
 
 This project is licensed under the same terms as the original repository. Please refer to the original repository for licensing details.
 
