@@ -1,6 +1,6 @@
 # Myo-ECN---Fix-for-Python-2.7-to-up-Compatibility
 
-This repository contains a fix for the streaming.py example from the smetanadvorak/myo_ecn repository. The issue arises due to a deprecated syntax in newer versions of Python (2.7 and above) in the MultichannelPlot.py file.
+This repository contains a fix for the streaming.py example from the smetanadvorak/myo_ecn repository: https://github.com/smetanadvorak/myo_ecn. The issue arises due to a deprecated syntax in newer versions of Python (2.7 and above) in the MultichannelPlot.py file.
 
 ##Issue Description
 The streaming.py script uses a MultichannelPlot class for visualizing EMG data from the MYO armband. However, the following line in MultichannelPlot.py causes an error in Python 2.7 and above:
